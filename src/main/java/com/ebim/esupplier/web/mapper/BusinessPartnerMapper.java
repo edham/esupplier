@@ -1,8 +1,9 @@
 package com.ebim.esupplier.web.mapper;
 
+import org.mapstruct.*;
+
 import com.ebim.esupplier.domain.BusinessPartner;
 import com.ebim.esupplier.web.dto.BusinessPartnerDTO;
-import org.mapstruct.*;
 
 @Mapper(componentModel = "spring")
 public interface BusinessPartnerMapper {

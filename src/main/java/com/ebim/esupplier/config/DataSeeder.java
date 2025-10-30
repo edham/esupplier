@@ -1,8 +1,9 @@
 
 package com.ebim.esupplier.config;
 
-import com.ebim.esupplier.security.User;
-import com.ebim.esupplier.security.UserRepository;
+import com.ebim.esupplier.domain.User;
+import com.ebim.esupplier.repository.UserRepository;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;

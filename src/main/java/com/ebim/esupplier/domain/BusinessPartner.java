@@ -1,6 +1,5 @@
 package com.ebim.esupplier.domain;
 
-import com.ebim.esupplier.security.User;
 import jakarta.persistence.*;
 import lombok.*;
 

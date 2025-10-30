@@ -1,9 +1,9 @@
 
 package com.ebim.esupplier.controller;
 
+import com.ebim.esupplier.domain.User;
+import com.ebim.esupplier.repository.UserRepository;
 import com.ebim.esupplier.security.JwtService;
-import com.ebim.esupplier.security.User;
-import com.ebim.esupplier.security.UserRepository;
 import com.ebim.esupplier.web.dto.LoginRequest;
 import com.ebim.esupplier.web.dto.RegisterRequest;
 import com.ebim.esupplier.web.dto.TokenResponse;
