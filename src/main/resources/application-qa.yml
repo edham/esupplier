@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://sql-db-qas-metalpren.postgres.database.azure.com:5432/postgres?sslmode=require
+    username: postgresql
+    password: Metalpren2025
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        jdbc:
+          time_zone: UTC
+
+server:
+  port: 8080
+
+app:
+  jwt:
+    issuer: esupplier
+    audience: esupplier-clients
+    secret: QAS_SuperSecret_ChangeThis_UseKeyVault
+    expiration-minutes: 480
